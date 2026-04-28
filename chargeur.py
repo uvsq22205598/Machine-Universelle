@@ -16,6 +16,7 @@ def charger_machine_depuis_fichier(chemin_fichier):
       ...
     """
 
+
     with open(chemin_fichier, "r", encoding="utf-8") as f:
         lignes = []
         for ligne in f:
